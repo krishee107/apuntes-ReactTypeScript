@@ -1,5 +1,5 @@
 import { useUsuarios } from "../hooks/useUsuarios"
-import { Usuario } from "./interfaces/reqRes";
+import { Usuario } from "../interfaces/reqRes";
 
 export const Usuarios = () => {
     const { usuarios, paginaAnterior, paginaSiguiente } = useUsuarios();

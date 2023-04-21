@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { reqResApi } from "../api/reqRes";
-import { ReqResListado, Usuario } from "../components/interfaces/reqRes";
+import { ReqResListado, Usuario } from "../interfaces/reqRes";
 
 export const useUsuarios = () => {
     const [usuarios, setUsuarios] = useState<Usuario[]>([])
