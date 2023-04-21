@@ -1,17 +1,8 @@
 import { useState } from "react"
+import { useForm } from "../hooks/useForm"
 
 export const Formularios = () => {
-    const [formulario, setFormulario] = useState({
-        email: 'test@test.com',
-        password: '123456'
-    })
-
-    const onChange = (value: string, campo: string) => {
-        setFormulario({
-            ...formulario,
-            [campo]: value
-        })
-    }
+    const { formulario, onChange } = useForm();
 
     return (
         <>
