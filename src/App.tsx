@@ -9,7 +9,7 @@ import { TiposBasicos } from "./typescript/TiposBasicos";
 const App = () => {
   return (
     <div className="mt-2">
-      <h1>Introduccion a react</h1>
+      <h1>Apuntes de React con TypeScript</h1>
       <hr></hr>
       <TiposBasicos />
       <hr></hr>
